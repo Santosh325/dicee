@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("Dicee","zee Button has been Pressed!" + " ");
                 Random randomNumberGenerator = new Random();
                 int number = randomNumberGenerator.nextInt(6);
+
                 Log.d("Dicee","The random number is " + number + " ");
                 leftDice.setImageResource(diceArray[number]);
 
